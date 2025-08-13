@@ -1,0 +1,74 @@
+# Arquivos de ambiente
+.env
+.env.local
+.env.production
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.temp
+.cache/
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos de teste
+test_*.py
+*_test.py
+.coverage
+htmlcov/
+
+# Arquivos de documentação local
+docs/
+*.md
+!README.md
+
+# Arquivos de configuração local
+config/
+backup_*/
+rollback_*/
+verificar_rollback.sh
